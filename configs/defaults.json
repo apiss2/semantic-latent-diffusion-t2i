@@ -1,0 +1,21 @@
+{
+    "model": {
+        "in_channels": 3,
+        "channels": [
+            320,
+            640,
+            1280,
+            1280
+        ],
+        "num_res_blocks": 2,
+        "downscale_factor": 8,
+        "adapter_type": "full_adapter"
+    },
+    "dataset": {
+        "image_dir": "path/to/image/dir",
+        "mask_dir": "path/to/mask/dir",
+        "size": 512,
+        "image_suffix": ".jpg",
+        "mask_suffix": ".png"
+    }
+}
